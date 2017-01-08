@@ -5,18 +5,64 @@
 	<title>Kevin Dettbarn</title>
 </head>
 
+<style>
+	
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
 <body>
 
 <p>I like coffee.</p>
 
 <p>I take pictures. Here are a few of them.</p>
 
-<img src="nyc_skyline_small.jpg" alt="NYC" width="1200" height="800">
+<img class="slides fade" src="nyc_skyline_small.jpg" alt="NYC" width="1200" height="800">
 
-<img src="jackson_st_bridge_small.jpg" alt="ATL" width="900" height="800">
+<img class="slides fade" src="jackson_st_bridge_small.jpg" alt="ATL" width="900" height="800">
 
-<img src="burruss_sunset_small.jpg" alt="Burruss" width="1200" height="800">
+<img class="slides fade" src="burruss_sunset_small.jpg" alt="Burruss" width="1200" height="800">
 
+<script>
+var index = 0;
+carousel();
+
+function carousel() {
+	var i;
+	var x = document.getElementsByClassName("slides");
+
+	for (i=0; i<x.length; i++)
+	{
+		x[i].style.display = "none";
+	}
+
+	index++;
+
+	if (index > x.length) 
+	{
+		index = 1;
+	}
+
+	x[index-1].style.display="block";
+	x[index-1].style.margin = "auto";
+
+	setTimeout(carousel, 10000);
+}
+</script>
 
 </body>
 </html>
