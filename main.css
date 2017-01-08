@@ -1,3 +1,9 @@
-h4 { color:black;
-	 text-align: center; 
+p { color:black;
+	 text-align: center;
+	 font-family:arial; 
+}
+
+body {
+	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
+	text-align:center;
 }
