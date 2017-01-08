@@ -6,4 +6,12 @@ p { color:black;
 body {
 	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
 	text-align:center;
+
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
