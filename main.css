@@ -1,6 +1,8 @@
 p { color:black;
 	 text-align: center;
 	 font-family:arial; 
+	 font-size: 20px;
+	 letter-spacing: 1px;
 }
 
 body {
@@ -9,9 +11,3 @@ body {
 
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
