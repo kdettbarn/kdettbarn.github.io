@@ -6,8 +6,40 @@ p { color:black;
 }
 
 body {
+	margin: 0;
+}
+
+.header {
+	height: 100px;
+	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
+	margin-top: 0px;
+}
+
+.pictures {
 	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
 	text-align:center;
 
 }
 
+.below-pictures {
+	height: 250px;
+	background-color: lightgray;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+.soon {
+	 font-family: arial; 
+	 font-size: 20px;
+	 letter-spacing: 1px;
+	 text-align: center;
+	 line-height:48px;
+}
+
+.soon2 {
+	 font-family:arial; 
+	 font-size: 20px;
+	 letter-spacing: 4px;
+	 line-height: 250px;
+}
