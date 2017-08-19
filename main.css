@@ -13,7 +13,7 @@ body {
 	height: 100px;
 	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
 	margin-top: 0px;
-	vertical-align: 50px;
+	vertical-align: middle;
 }
 
 .pictures {
