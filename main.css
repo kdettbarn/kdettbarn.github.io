@@ -23,7 +23,7 @@ body {
 }
 
 .below-pictures {
-	height: 250px;
+	height: 20px;
 	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
 	text-align: center;
 	vertical-align: middle;
