@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-	height: 100px;
+	height: 50px;
 	background: -webkit-linear-gradient(right, #d1e2ff, #eaf0f9, #d1e2ff);
 	margin-top: 0px;
 	vertical-align: middle;
