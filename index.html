@@ -68,8 +68,6 @@
 
 	<img class="slides fade" src="dragons-back.jpg" alt="Dragons Back" width="900" height="598">
 
-	<img class="slides fade" src="wtc-portrait.jpg" alt="Reflection Pool" width="900" height="598">
-
 	<img class="slides fade" src="amsterdam-skating.jpg" alt="Amsterdam Skating Rink" width="900" height="598">
 
 	<img class="slides fade" src="amsterdam-canal.jpg" alt="Amsterdam Canal" width="900" height="598">
@@ -108,6 +106,27 @@ function carousel() {
 
 	setTimeout(carousel, 8000);
 }
+</script>
+
+<script
+  type="text/javascript"
+  src="https://unpkg.com/@passbase/button/button.js"
+></script>
+
+<div id="passbase-button"></div>
+<script type="text/javascript">
+  Passbase.renderButton(
+    document.getElementById("passbase-button"),
+    (err, passport) => {},
+    "cYYiAdg2x2grqxkNO69opXFzndpl4BM7GhInIr4maBRa0EcDbiCC2XV307prXdLb"
+,
+    {
+      additionalAttributes: {
+        // Add your internal references here
+        // customer_user_id": "YOUR_INTERNAL_USER_ID",
+      }
+    }
+  );
 </script>
 
 </body>
